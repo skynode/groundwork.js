@@ -55,8 +55,8 @@ import Groundwork from 'groundwork.js';
 
 // Create a new Groundwork client using your client id
 let gw = new Groundwork({
-    'apiKey': 'abc123'
-  });
+  'apiKey': 'abc123'
+});
 
 // Collect user information from a form
 let signUpData = {
