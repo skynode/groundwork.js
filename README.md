@@ -1,6 +1,6 @@
 # groundwork.js
 
-[![Build Status](https://magnum.travis-ci.com/thegroundwork/groundwork.js.svg?token=pT4ywyasQqSiTpPeE3k4&branch=master)](https://magnum.travis-ci.com/thegroundwork/groundwork.js)
+[![Build Status](https://travis-ci.org/thegroundwork/groundwork.js.svg?branch=develop)](https://travis-ci.org/thegroundwork/groundwork.js)
 
 A JavaScript (browser) library facilitating interaction with The Groundwork Platform. [Learn more](https://timshel.com/thegroundwork/). Learn more about [our APIs](https://developer.thegroundwork.com/api/).
 
