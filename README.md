@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/thegroundwork/groundwork.js.svg?branch=develop)](https://travis-ci.org/thegroundwork/groundwork.js)
 
-A JavaScript (browser) library facilitating interaction with The Groundwork Platform. [Learn more](https://timshel.com/thegroundwork/). Learn more about [our APIs](https://developer.thegroundwork.com/api/).
+A JavaScript (browser) library facilitating interaction with [The Groundwork Platform](https://timshel.com/thegroundwork/).
+
+Learn more about [our platform APIs](https://developer.thegroundwork.com/api/).
 
 ## Learn about it
 
