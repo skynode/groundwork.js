@@ -1,8 +1,8 @@
 # Overview
 
-**Groundwork.js** is a small library to assist developer when working with [The Groundwork](https://thegroundwork.com) platform. It provides a consistent interface to our APIs and handles the intricacies of authentication for you.
+**Groundwork.js** is a small library to assist developers when working with [The Groundwork](https://timshel.com/thegroundwork/) platform. It provides a consistent interface to [our APIs](https://developer.thegroundwork.com/api/) and handles the intricacies of authentication for you.
 
-**Groundwork.js** is specifically for use in the browser. You can load it directly from our CDN as a `<script>` tag or import it into your application via a [UMD](https://github.com/umdjs/umd) interface.
+**Groundwork.js** is specifically for use in the browser. You can load it directly from our CDN as a `<script>` tag or import it into your application via a [UMD](https://github.com/umdjs/umd) interface or using `import` with Babel.js.
 
 ## Examples
 

@@ -2,7 +2,7 @@
 
 [![Build Status](https://magnum.travis-ci.com/thegroundwork/groundwork.js.svg?token=pT4ywyasQqSiTpPeE3k4&branch=master)](https://magnum.travis-ci.com/thegroundwork/groundwork.js)
 
-A JavaScript (browser) library facilitating interaction with The Groundwork's services. [Learn more](http://cdn.thegroundwork.com/groundworkjs/)
+A JavaScript (browser) library facilitating interaction with The Groundwork Platform. [Learn more](https://timshel.com/thegroundwork/). Learn more about [our APIs](https://developer.thegroundwork.com/api/).
 
 ## Learn about it
 
@@ -76,11 +76,6 @@ gw.supporter.create(signUpData)
   .then(handleSuccess)
   .catch(handleErrors);
 ```
-
-## Features
-
-**tbd**
-
 ## Browser requirements
 
 A+ Grade browsers
@@ -110,10 +105,6 @@ Documentation is generated using [ESDoc](https://esdoc.org/):
 ```shell
 npm run docs
 ```
-
-## Installing
-
-**tbd**
 
 ## Development
 
