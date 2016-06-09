@@ -1,8 +1,10 @@
 # groundwork.js
 
-[![Build Status](https://magnum.travis-ci.com/thegroundwork/groundwork.js.svg?token=pT4ywyasQqSiTpPeE3k4&branch=master)](https://magnum.travis-ci.com/thegroundwork/groundwork.js)
+[![Build Status](https://travis-ci.org/thegroundwork/groundwork.js.svg?branch=develop)](https://travis-ci.org/thegroundwork/groundwork.js)
 
-A JavaScript (browser) library facilitating interaction with The Groundwork's services. [Learn more](http://cdn.thegroundwork.com/groundworkjs/)
+A JavaScript (browser) library facilitating interaction with [The Groundwork Platform](https://timshel.com/thegroundwork/).
+
+Learn more about [our platform APIs](https://developer.thegroundwork.com/api/).
 
 ## Learn about it
 
@@ -55,8 +57,8 @@ import Groundwork from 'groundwork.js';
 
 // Create a new Groundwork client using your client id
 let gw = new Groundwork({
-    'apiKey': 'abc123'
-  });
+  'apiKey': 'abc123'
+});
 
 // Collect user information from a form
 let signUpData = {
@@ -76,11 +78,6 @@ gw.supporter.create(signUpData)
   .then(handleSuccess)
   .catch(handleErrors);
 ```
-
-## Features
-
-**tbd**
-
 ## Browser requirements
 
 A+ Grade browsers
@@ -110,10 +107,6 @@ Documentation is generated using [ESDoc](https://esdoc.org/):
 ```shell
 npm run docs
 ```
-
-## Installing
-
-**tbd**
 
 ## Development
 
