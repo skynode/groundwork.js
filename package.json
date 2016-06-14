@@ -1,7 +1,7 @@
 
 {
   "name": "groundwork.js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "The Groundwork Platform JavaScript Client",
   "main": "dist/groundwork.js",
   "scripts": {
