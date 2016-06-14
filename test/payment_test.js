@@ -197,6 +197,8 @@ describe('Payment', () => {
 
   it('toCents will convert currencies to cents', () => {
     const fn = payment.toCents.bind(payment);
+    expect(fn(1)).toBe(100);
+    expect(fn('$1')).toBe(100);
     expect(fn(1.99)).toBe(199);
     expect(fn('$.99')).toBe(99);
     expect(fn('$12.04')).toBe(1204);
@@ -204,11 +206,13 @@ describe('Payment', () => {
     expect(fn('$12.34423523')).toBe(1234);
     expect(fn('$1,332.34423523')).toBe(133234);
     expect(fn('$.34')).toBe(34);
+    expect(fn('0.2')).toBe(20);
+    expect(fn(.5)).toBe(50);
     expect(fn('$0.34423523')).toBe(34);
     expect(fn('€12.34423523')).toBe(1234);
     expect(fn('£12.34423523')).toBe(1234);
     expect(fn('-¥12.34423523')).toBe(1234);
-    expect(fn('-1')).toBe(1);
+    expect(fn('-1')).toBe(100);
     expect(fn('-11234.332')).toBe(1123433);
     expect(fn(1000)).toBe(100000);
     expect(fn(1000.00)).toBe(100000);

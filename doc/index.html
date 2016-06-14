@@ -81,8 +81,9 @@
 </nav>
 
 <div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="groundwork-js">groundwork.js</h1>
-<p><a href="https://magnum.travis-ci.com/thegroundwork/groundwork.js"><img src="https://magnum.travis-ci.com/thegroundwork/groundwork.js.svg?token=pT4ywyasQqSiTpPeE3k4&amp;branch=master" alt="Build Status"></a></p>
-<p>A JavaScript (browser) library facilitating interaction with The Groundwork&apos;s services. <a href="http://cdn.thegroundwork.com/groundworkjs/">Learn more</a></p>
+<p><a href="https://travis-ci.org/thegroundwork/groundwork.js"><img src="https://travis-ci.org/thegroundwork/groundwork.js.svg?branch=develop" alt="Build Status"></a></p>
+<p>A JavaScript (browser) library facilitating interaction with <a href="https://timshel.com/thegroundwork/">The Groundwork Platform</a>.</p>
+<p>Learn more about <a href="https://developer.thegroundwork.com/api/">our platform APIs</a>.</p>
 <h2 id="learn-about-it">Learn about it</h2>
 <ol>
 <li><a href="https://github.com/thegroundwork/groundwork.js/blob/master/manual/overview.md">Overview</a></li>
@@ -97,13 +98,12 @@
 <h2 id="get-it">Get it</h2>
 <h3 id="cdn-versions">CDN Versions</h3>
 <p><strong>Production</strong> (minified)</p>
-<pre><code><code class="source-code prettyprint">https://cdn.thegroundwork.com/groundworkjs/1.1.0/groundwork.min.js</code>
+<pre><code><code class="source-code prettyprint">https://cdn.thegroundwork.com/groundworkjs/1.1.1/groundwork.min.js</code>
 </code></pre><p><strong>Development</strong> (additional logging)</p>
-<pre><code><code class="source-code prettyprint">https://cdn.thegroundwork.com/groundworkjs/1.1.0/groundwork.js</code>
+<pre><code><code class="source-code prettyprint">https://cdn.thegroundwork.com/groundworkjs/1.1.1/groundwork.js</code>
 </code></pre><h3 id="stand-alone">Stand-alone</h3>
 <p>Check out the repository and build a stand-alone distributable:</p>
-<pre><code class="lang-shell"><code class="source-code prettyprint">$ npm install -g webpack esdoc karma phantomjs
-$ npm install
+<pre><code class="lang-shell"><code class="source-code prettyprint">$ npm install
 $ npm run dist</code>
 </code></pre>
 <p>The compiled files will be in the <code>/dist</code> folder.</p>
@@ -115,8 +115,8 @@ $ npm run dist</code>
 
 // Create a new Groundwork client using your client id
 let gw = new Groundwork({
-    &apos;apiKey&apos;: &apos;abc123&apos;
-  });
+  &apos;apiKey&apos;: &apos;abc123&apos;
+});
 
 // Collect user information from a form
 let signUpData = {
@@ -136,13 +136,11 @@ gw.supporter.create(signUpData)
   .then(handleSuccess)
   .catch(handleErrors);</code>
 </code></pre>
-<h2 id="features">Features</h2>
-<p><strong>tbd</strong></p>
 <h2 id="browser-requirements">Browser requirements</h2>
 <p>A+ Grade browsers</p>
 <h2 id="prerequisites">Prerequisites</h2>
 <p>Before working with the library source, you&apos;ll need to install some reqiured packages:</p>
-<pre><code class="lang-shell"><code class="source-code prettyprint">npm install -g webpack esdoc karma phantomjs</code>
+<pre><code class="lang-shell"><code class="source-code prettyprint">npm install</code>
 </code></pre>
 <h2 id="build">Build</h2>
 <p>To build a standalone library file and documentation:</p>
@@ -153,8 +151,6 @@ gw.supporter.create(signUpData)
 <p>Documentation is generated using <a href="https://esdoc.org/">ESDoc</a>:</p>
 <pre><code class="lang-shell"><code class="source-code prettyprint">npm run docs</code>
 </code></pre>
-<h2 id="installing">Installing</h2>
-<p><strong>tbd</strong></p>
 <h2 id="development">Development</h2>
 <p>This library is written in <a href="http://www.ecma-international.org/ecma-262/6.0/">ES2015</a> and compiled to <a href="http://www.ecma-international.org/ecma-262/5.1/">ES5</a> via <a href="https://babeljs.io">Babel</a>. Tests are written with Jasmine and run with Karma.</p>
 <p>This project uses <a href="https://guides.github.com/introduction/flow/index.html">GitHub Flow</a> (<a href="http://scottchacon.com/2011/08/31/github-flow.html">longer explanation</a>) as a deployment model. Please make feature branches from <code>master</code> and then PR them for review.</p>

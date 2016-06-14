@@ -391,7 +391,7 @@ export default class Payment {
   toCents(amount = &apos;&apos;) {
     const amt = this.removeCurrencyFormatting(amount);
     const abs = Math.abs(Number(amt).toFixed(2));
-    return (abs &lt;= 1) ? Number(String(abs).replace(/\D/g, &apos;&apos;)) : abs * 100;
+    return (abs &lt;= 0) ? Number(String(abs).replace(/\D/g, &apos;&apos;)) : abs * 100;
   }
 
   /**
